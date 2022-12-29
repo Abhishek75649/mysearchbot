@@ -8,7 +8,7 @@ class Config(object):
     API_ID = int(os.getenv("API_ID", "26163922"))
     API_HASH = os.getenv("API_HASH", "06666cdc8aa495bc51043e420f09f085")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "5834524887:AAHAynhGM7cgOQrHzkFuY7VSU0HJs8AU6ls")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "telethon")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "flashsearchrobot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOJkBuwM6q7VglEqrQqludiEz1RmQku0N6_YSnMUX-gQpt81WpjZ_2qZZsUUN_rXvC5KUL0AT4j5ZxnLSm4fSSokw7GLy5qS-0f874QO7huZEP-Xh3JCr-LlFGOpPiLoTZExnnG3rxjHIiy_BAbiYVASbqeMGA0_-MD052F7f2GkhqzHpkRcTErMI7zwTwacALr4OnlgLo_rngnq7rquwiiUHV7CBTmhS_WiKzo_bCrxIF0JdZy3Mnqr1xtMy7epZ_wvpkuP3pu2KbhRS5pXMeJifXwJi_dJkaRXrl6mC3aP4iv7_oKxOsmpdo8-p2SclSbDs8jB5QsYiZ63TfxQa42nfKS8=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001680305772")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "flashsearchrobot")
