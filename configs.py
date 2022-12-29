@@ -13,7 +13,7 @@ class Config(object):
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001680305772")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "flashsearchrobot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "1046480269"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "@vickugupta")
+#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "vickugupta")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "a2zbackup")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
